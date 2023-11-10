@@ -4,7 +4,7 @@ function Login() {
     var password = document.login.password.value;
     if (username == "Mabim" && password =="Mabim"){
             if(confirm("Apakah anda ingin login?") == true){
-                window.location.href = "https://github.com/syifamutaaa"
+                window.location.href = "https://github.com/syifamutaaa/mabim-fasilkom"
             } else {
                 alert("Login dibatalkan !");
             }
